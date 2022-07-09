@@ -1,14 +1,17 @@
 package com.PrimeiroProjeto;
 
+import com.PrimeiroProjeto.model.Gato;
+
 public class PrimeroProjeto {
 
 	public static void main(String[] args) {
+			
+		Gato gato = new Gato();
 		
-		int a = 2;
-		int b = 3;
-		// TODO Auto-generated method stub
-		System.out.println("Hello world!" + (a+b));
-
+		livros livros = new livros();
+		
+		System.out.println(gato);
+		System.out.println(livros);
 	}
 
 }
